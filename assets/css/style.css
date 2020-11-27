@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap");
+
+body {
+  font-family: "Open-Sans", sans-serif;
+  letter-spacing: 2px;
+  padding-top: 100px;
+}
+
+/*---- Header----*/
+
+.header {
+  margin: 0;
+}
+
+.bg-nav {
+  background-color: rgba(108, 186, 31, 0.95);
+}
+
+.navbar-text {
+  color: #ffdc14;
+  text-transform: uppercase;
+  font-size: 30px;
+}
+
+.navbar-toggler {
+  color: #f8e238;
+  border-color: #f8e238;
+}
+
+.nav-link {
+  color: #f8e238;
+}
+
+.nav-link:hover {
+  color: #dcf406b9;
+  background: transparent;
+}
+
+/*---- Hero Image ----*/
+
+.container-hero-image {
+  width: 100%;
+  padding: 0;
+}
+
+.hero-image {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  object-fit: cover;
+  object-position: bottom;
+}
+
+.hero-text {
+  font-size: 4vw;
+  position: absolute;
+  top: 40%;
+  left: 35%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #000;
+}
+
+.hero-text h3 {
+  font-size: 4vw;
+}
+
+/*---- Media Queries ----*/
+@media (max-width: 768px) {
+  .navbar-text {
+    display: none;
+  }
+
+  /* https://stackoverflow.com/questions/32392383/how-to-center-text-responsive-in-image-using-css-html
+  Modified this css found on Stackoverflow to help with the responsiveness of the text on smaller screens*/
+  .hero-text {
+    font-size: 4vw;
+    position: absolute;
+    top: 30%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #000;
+  }
+}
