@@ -140,6 +140,11 @@ body {
     height: 40px;
 }
 
+.column-gallery {
+  flex: 50%;
+  padding: 5px;
+}
+
   /* https://stackoverflow.com/questions/32392383/how-to-center-text-responsive-in-image-using-css-html
   Modified this css found on Stackoverflow to help with the responsiveness of the text on smaller screens*/
   .hero-text {
@@ -151,4 +156,11 @@ body {
     text-align: center;
     color: #000;
   }
+}
+
+@media (max-width: 576px){
+    .column-gallery {
+  flex: 100%;
+  padding: 5px;
+}
 }
