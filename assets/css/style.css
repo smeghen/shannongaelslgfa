@@ -6,6 +6,13 @@ body {
   padding-top: 100px;
 }
 
+.section-title{
+    
+    color: #6cba1f;
+    text-align: center;
+    font-size: 4vw;
+}
+
 /*---- Header----*/
 
 .header {
@@ -54,6 +61,7 @@ body {
 .hero-text {
   font-size: 4vw;
   position: absolute;
+  padding-top: 25px;
   top: 40%;
   left: 35%;
   transform: translate(-50%, -50%);
@@ -64,6 +72,45 @@ body {
 .hero-text h3 {
   font-size: 4vw;
 }
+
+
+/*---- About Section ----*/
+
+
+
+.flags-image{
+    width: 100%;
+    height: auto;
+}
+
+.card-text-about{
+    padding: 10px;
+}
+
+.card{
+    border: none;
+}
+
+/*---- Gallery Section ----*/
+
+.row-gallery {
+  display: flex;
+}
+
+.column-gallery {
+  flex: 33.33%;
+  padding: 5px;
+}
+
+.zoom {
+  transition: transform .2s; 
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  transform: scale(1.5);
+}
+
 
 /*---- Media Queries ----*/
 @media (max-width: 768px) {
