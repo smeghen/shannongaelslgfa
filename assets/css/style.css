@@ -23,10 +23,15 @@ body {
   background-color: rgba(108, 186, 31, 0.95);
 }
 
+.logo{
+    width:80px;
+    height:80px;
+}
+
 .navbar-text {
   color: #ffdc14;
   text-transform: uppercase;
-  font-size: 30px;
+  font-size: 4vw;
 }
 
 .navbar-toggler {
@@ -66,12 +71,17 @@ body {
   left: 35%;
   transform: translate(-50%, -50%);
   text-align: center;
-  color: #000;
+  color: #4a4a4a;
 }
 
 .hero-text h3 {
-  font-size: 4vw;
+  font-size: 3.5vw;
 }
+
+.hero-text p {
+  font-size: 2.5vw;
+}
+
 
 
 /*---- About Section ----*/
@@ -85,16 +95,23 @@ body {
 
 .card-text-about{
     padding: 10px;
+    color: #4a4a4a;
 }
 
 .card{
     border: none;
+    margin-bottom: 20px;
+    color: #4a4a4a; 
 }
+
+
+
 
 /*---- Gallery Section ----*/
 
 .row-gallery {
   display: flex;
+  margin: 0 20px 0 20px;
 }
 
 .column-gallery {
@@ -108,15 +125,20 @@ body {
 }
 
 .zoom:hover {
-  transform: scale(1.5);
+  transform: scale(1.25);
 }
 
 
 /*---- Media Queries ----*/
 @media (max-width: 768px) {
   .navbar-text {
-    display: none;
+    text-align: left;
   }
+
+  .logo{
+    width: 40px;
+    height: 40px;
+}
 
   /* https://stackoverflow.com/questions/32392383/how-to-center-text-responsive-in-image-using-css-html
   Modified this css found on Stackoverflow to help with the responsiveness of the text on smaller screens*/
