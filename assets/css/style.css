@@ -128,6 +128,47 @@ body {
   transform: scale(1.25);
 }
 
+/*---- Footer ----*/
+
+.bg-footer{
+  background-color: rgba(108, 186, 31, 0.95);
+}
+
+
+
+.footer-text{
+padding-top: 20px;
+  color: #ffdc14;
+  
+  
+  
+}
+
+.footer-text p{
+    padding-left: 30px;
+    font-size: 14px;
+    
+}
+
+.footer-icons{
+padding-right: 30px;
+    font-size: 20px;
+    text-align: right;
+}
+
+.footer-icons a {
+
+     color: #ffdc14;
+    
+}
+
+
+
+.footer-icons a:hover {
+  color: #dcf406b9;
+  background: transparent;
+}
+
 
 /*---- Media Queries ----*/
 @media (max-width: 768px) {
