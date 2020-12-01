@@ -60,8 +60,12 @@
               <li class="nav-item">
                 <a class="nav-link" href="#about">About</a>
               </li>
-              <li class="nav-item"><a class="nav-link" href="#">Gallery</a></li>
-              <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+              <li class="nav-item">
+                <a class="nav-link" href="#gallery">Gallery</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
               <li class="nav-item"><a class="nav-link" href="#">Links</a></li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Membership</a>
@@ -100,19 +104,19 @@
       <!-- About Section  -->
       <h3 id="about" class="section-title">About</h3>
       <!-- Section Divider  -->
-    <hr
-      style="
-        width: 25%;
-        height: 3px;
-        border-width: 0;
-        color: #6cba1f;
-        background-color: #ffdc14;
-      "
-    />
-    <!-- End Section Divider  -->
+      <hr
+        style="
+          width: 25%;
+          height: 3px;
+          border-width: 0;
+          color: #6cba1f;
+          background-color: #ffdc14;
+        "
+      />
+      <!-- End Section Divider  -->
       <div class="card">
         <div class="row justify-content-around">
-          <div class="col-sm-10 col-md-8 col-lg-4">
+          <div class="col-sm-10 col-md-8 col-lg-5">
             <img
               class="flags-image rounded shadow"
               src="assets/images/flags.jpg"
@@ -120,7 +124,7 @@
             />
           </div>
 
-          <div class="col-sm-10 col-md-8 col-lg-4">
+          <div class="col-sm-10 col-md-8 col-lg-6">
             <div class="card rounded shadow">
               <p class="card-text card-text-about">
                 A little Club History from Shannon Gaels. The club was founded
@@ -138,7 +142,7 @@
       <br class="about-spacer" />
       <div class="card">
         <div class="row justify-content-around">
-          <div class="col-sm-10 col-md-8 col-lg-4">
+          <div class="col-sm-10 col-md-8 col-lg-6">
             <div class="rounded shadow">
               <p class="card-text card-text-about">
                 The club caters for underage groups of U6, U8, and U10; which
@@ -152,7 +156,7 @@
             </div>
           </div>
 
-          <div class="col-sm-10 col-md-8 col-lg-4">
+          <div class="col-sm-10 col-md-8 col-lg-5">
             <img
               class="flags-image rounded shadow"
               src="assets/images/shannon-gaels-sign.jpg"
@@ -178,16 +182,16 @@
       <!-- Gallery Section  -->
       <h3 id="gallery" class="section-title">Gallery</h3>
       <!-- Section Divider  -->
-    <hr
-      style="
-        width: 25%;
-        height: 3px;
-        border-width: 0;
-        color: #6cba1f;
-        background-color: #ffdc14;
-      "
-    />
-    <!-- End Section Divider  -->
+      <hr
+        style="
+          width: 25%;
+          height: 3px;
+          border-width: 0;
+          color: #6cba1f;
+          background-color: #ffdc14;
+        "
+      />
+      <!-- End Section Divider  -->
       <div class="row row-gallery">
         <div class="column column-gallery zoom">
           <img
@@ -245,6 +249,75 @@
       </div>
 
       <!-- End Gallery Section  -->
+    </section>
+    <!-- Section Divider  -->
+    <hr
+      style="
+        width: 25%;
+        height: 3px;
+        border-width: 0;
+        color: #6cba1f;
+        background-color: #ffdc14;
+      "
+    />
+    <!-- End Section Divider  -->
+    <section>
+      <!-- Contact Section  -->
+      <h3 id="contact" class="section-title">Contact</h3>
+      <!-- Section Divider  -->
+      <hr
+        style="
+          width: 25%;
+          height: 3px;
+          border-width: 0;
+          color: #6cba1f;
+          background-color: #ffdc14;
+        "
+      />
+      <!-- End Section Divider  -->
+      <div class="card">
+        <div class="row justify-content-around">
+          <div class="col-sm-10 col-md-8 col-lg-6">
+            <div class="rounded shadow">
+              <form class="contact">
+                <div class="form-group form-contact col-sm-10">
+                  <label for="name">Name</label>
+                  <input type="text" class="form-control" id="name" required />
+                </div>
+                <div class="form-group col-sm-10">
+                  <label for="email">Email Address</label>
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="email"
+                    required
+                  />
+                </div>
+
+                <div class="form-group col-sm-10">
+                  <label for="comment">Comment</label>
+                  <textarea
+                    class="form-control"
+                    id="comment"
+                    rows="5"
+                    required
+                  ></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-color">Submit</button>
+              </form>
+            </div>
+          </div>
+
+          <div class="col-sm-10 col-md-8 col-lg-5">
+            <img
+              class="flags-image rounded shadow"
+              src="assets/images/shannon-gaels-404020.jpg"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
     </section>
     <!-- Section Divider  -->
     <hr
