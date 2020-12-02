@@ -10,8 +10,10 @@ body {
     
     color: #6cba1f;
     text-align: center;
-    font-size: 4vw;
+    font-size: 2rem;
 }
+
+
 
 /*---- Header----*/
 
@@ -133,6 +135,13 @@ body {
 
 /*---- Contact ----*/
 
+h3, h4{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    color: #4a4a4a;
+}
+
 .btn-color{
     color: #f8e238;
     background-color: rgba(108, 186, 31, 0.95);
@@ -189,8 +198,6 @@ padding-right: 30px;
      color: #ffdc14;
     
 }
-
-
 
 .footer-icons a:hover {
   color: #dcf406b9;
