@@ -107,11 +107,6 @@ body {
       color: #6cba1f; 
 }
 
-.card-margin{
-    margin-left: 5px;
-    margin-right: 5px;
-}
-
 
 /*---- Gallery Section ----*/
 
@@ -269,4 +264,5 @@ padding-right: 30px;
   flex: 100%;
   padding: 5px;
 }
+
 }
