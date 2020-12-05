@@ -127,10 +127,41 @@ Wireframes
 
 ---
 ### Testing
+
+
 ---
 ### Deployment
 ---
 ### Issues Encountered
+
+*  Having the links to the various sections of the site made the navbar look to busy and cluttered. 
+	  Solution – used the navigation drop down menu from Bootstrap to tidy up the navbar.
+
+* Could not change the colour of the navbar drop down menu icon to make the colour scheme of the site. 
+After a search on Slack the solution was found to change from the default Bootstrap icon to the Fontawesome icon and styled it using CSS.
+
+* Keeping the text on the hero image when changing from desktop to tablet/mobile.
+Solution found on Stackoverflow to use viewport values for text size rather than px. Also, varied the position of the text by use of top and left margin percentages so that it is responsive for all devices. A media query for smaller screens is used to change the margin percentages so that text stays in position.
+https://stackoverflow.com/questions/32392383/how-to-center-text-responsive-in-image-using-css-html
+
+
+
+* Aligning the images in the Gallery section and keeping them responsive with changes in screen size.
+	Code found on w3schools.com for aligning images side by side. I modified this code to make it work for my needs and added the necessary media queries to adjust the images on various screen sizes.
+https://www.w3schools.com/howto/howto_css_images_side_by_side.asp
+
+
+* Wanted to change the highlight colour of the Bootstrap form input fields.
+Code found on Stackoverflow to change the colour of the form input highlight when selected. I modified this code to change the colour to match the colour scheme of the site.
+https://stackoverflow.com/questions/14820952/change-bootstrap-input-focus-blue-glow
+
+
+* Was not happy with the alignment of the Bootstrap cards used in the About section. As the images and text cards are different sizes, having them align side by side did not look visually right to me. 	After reading through the Bootstrap documentation and trialing several options, I decided that using “align-self-center” for the text cards work best.
+
+* Google Maps iframe was not responsive using Bootstrap.
+Found solution on w3schools.com to make iframe responsive using CSS and code was adjusted to work for this site.
+	https://www.w3schools.com/howto/howto_css_responsive_iframes.asp
+
 ---
 
 ### Credits
