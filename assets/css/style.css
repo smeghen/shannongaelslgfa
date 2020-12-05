@@ -18,7 +18,21 @@ hr{
     margin-bottom: 2rem;
 }
 
+.top-section-divider{
+    width: 50%;
+    height: 3px;
+    border-width: 0;
+    color: #6cba1f;
+    background-color: #ffdc14;
+}
 
+.bottom-section-divider{
+    width: 50%;
+    height: 3px;
+    border-width: 0;
+    color: #6cba1f;
+    background-color: #ffdc14;
+}
 /*---- Header----*/
 
 .header {
@@ -77,12 +91,12 @@ hr{
   left: 35%;
   transform: translate(-50%, -50%);
   text-align: center;
-  color: #4a4a4a;
+  color: #000;
 }
 
 .hero-text h3 {
   font-size: 3.5vw;
-   color: #4a4a4a;
+   color: #000;
 }
 
 .hero-text p {
@@ -260,7 +274,7 @@ padding-right: 30px;
   /* https://stackoverflow.com/questions/32392383/how-to-center-text-responsive-in-image-using-css-html
   Modified this css found on Stackoverflow to help with the responsiveness of the text on smaller screens*/
   .hero-text {
-    font-size: 4vw;
+    font-size: 6vw;
     position: absolute;
     top: 30%;
     left: 35%;
