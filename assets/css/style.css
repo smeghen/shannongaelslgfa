@@ -44,8 +44,8 @@ hr{
 }
 
 .logo{
-    width:80px;
-    height:90px;
+    width:90px;
+    height:100px;
     background-color:rgba(108, 186, 31, 0.95);
 }
 
@@ -62,11 +62,17 @@ hr{
 
 .nav-link {
   color: #f8e238;
+  font-size: 2vw;
 }
 
 .nav-link:hover {
   color: #dcf406b9;
   background: transparent;
+}
+
+.navbar-nav{
+
+    float: center;
 }
 
 
@@ -260,12 +266,12 @@ padding-right: 30px;
 /*---- Media Queries ----*/
 @media (max-width: 768px) {
   .navbar-text {
-    text-align: left;
+    text-align: right;
   }
 
   .logo{
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 60px;
 }
 
 .column-gallery {
