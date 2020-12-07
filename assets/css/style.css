@@ -45,7 +45,8 @@ hr{
 
 .logo{
     width:80px;
-    height:80px;
+    height:90px;
+    background-color:rgba(108, 186, 31, 0.95);
 }
 
 .navbar-text {
@@ -67,6 +68,7 @@ hr{
   color: #dcf406b9;
   background: transparent;
 }
+
 
 /*---- Hero Image ----*/
 
