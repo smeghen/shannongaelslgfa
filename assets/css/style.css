@@ -19,8 +19,8 @@ hr{
 }
 
 .top-section-divider{
-    width: 50%;
-    height: 3px;
+    width: 100%;
+    height: 10px;
     border-width: 0;
     color: #6cba1f;
     background-color: #ffdc14;
@@ -33,6 +33,13 @@ hr{
     color: #6cba1f;
     background-color: #ffdc14;
 }
+
+.section-icon{
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+
 /*---- Header----*/
 
 .header {
