@@ -118,10 +118,11 @@ Wireframes
 * Google Fonts -The font of Open Sans was imported from Google Fonts.
 * Font Awesome – Was used to obtain the social media icons used.
 * Balsamiq – Was used to create the wireframes of the site on the various devices.
-* Adobe Photoshop Express - Used to resize images used on the site.
+* Adobe Photoshop Express - Used to resize images used on the site. https://www.adobe.com/ie/photoshop/online/resize-image.html
 * Git - Git is used for the version control of changes throughout the project.
 * GitPod – was used as the coding space for the project.
 * Github - was used to host the project files and publish the live website by using Git Pages.
+* Autoprefixer - was used to parse  CSS and add vendor prefixes to CSS rules via https://autoprefixer.github.io/
 * W3 HTML Validation was done via https://validator.w3.org/
 * W3 CSS Validation was done via https://jigsaw.w3.org/css-validator/
 
