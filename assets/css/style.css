@@ -266,11 +266,11 @@ h3, h4{
 @media (max-width: 768px) {
   .navbar-text {
     text-align: right;
-     font-size: 5vw;
+     font-size: 4vw;
   }
 
   .nav-link {
-   font-size: 4vw;
+   font-size: 3vw;
 }
 
   .logo{
