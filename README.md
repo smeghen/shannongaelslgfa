@@ -33,7 +33,7 @@ I decided to create a site for the Shannon Gaels Ladies Gaelic Football Club bas
 * I want to be able to see details on the nominated Charity of the Month.
 * I want to see recent photos of the club and its players.
 
-#### Structure:
+## Structure:
 The main aim of this site is to provide details, pictures and links relating to the Shannon Gaels Ladies Gaelic 
 Football Club. The site content will be both factual, inspirational and practical for all users. 
 This is achieved by providing club history, aspirational pictures of club matches and players. 
@@ -85,11 +85,11 @@ devices. This will fulfil the user story -
 > I want to be able to access the site from all device types.
 
 
-#### Design:
+## Design:
 
 Colour scheme: 
 
-After consulting with some of the club officials, I decided that the use of the club colours of #d6be0e yellow and #6cba1f green would be the best to emphasise the club brand. The background colour is set as white with the yellow and green being incorporated into Navigation Bar, Footer, Section divider. I had originally thought of using the yellow and green for the background colour, but after trialling found it to be too overpowering and distracted from the content of the site.
+After consulting with some of the club officials, I decided that the use of the club colours of yellow and green would be the best to emphasise the club brand. The background colour is set as white with the yellow and green being incorporated into Navigation Bar, Footer, Section divider. I had originally thought of using the yellow and green for the background colour, but after trialling found it to be too overpowering and distracted from the content of the site.
 
 Typography:
 
@@ -98,20 +98,29 @@ The main font used throughout the site is Open Sans, which is the official font 
 Imagery:
  
 The club has provided me with their Logo, which will be used in the Navbar. Other images of the club sign, grounds, and flags were taken by me and will be used throughout the site, so that users can easily identify with the club.
-
+The images in the gallery section were taken by Deirdre O’Dowd.
 
 Wireframes
 
 
 
 
-#### Differences to Design
+### Differences to Design
+The following items were change from the orginial design plans for the site:
+* There was no animation placed on the hero image as I felt is was more of a distraction to
+the image.
+* The text on the hero image was removed as it mirrored what is already showing in the navbar.
+* The layout of the links section was change from a list to individual cards,
+as I felt that some more information about each link would be more helpful to the site users.
+* Rather than having a background colour of white for all sections, I alternated between white
+and an off white to show and clear seperation of sections.
+
 ---
-#### Features:
+## Features:
 ##### Existing Features
 ##### Features to be Implemented in Future
 ---
-### Technologies Used
+## Technologies Used
 * HTML -  HTML is the main language used for the structure of the site.
 * CSS - Custom written CSS is used to style the site.
 * Bootstrap – The layout and styling of the site was help by the use of Bootstrap framework.
@@ -127,11 +136,11 @@ Wireframes
 * W3 CSS Validation was done via https://jigsaw.w3.org/css-validator/
 
 ---
-### Testing
+# Testing
 
 
----
-### Deployment
+
+# Deployment
 
 ##  GitHub Project Creation
 To create the project the following steps were used:
@@ -162,7 +171,7 @@ To run the code locally:
 * Open a new terminal and type 'git clone' command in the CLI and paste copied URL
 * Alternatively, click 'Open with GitHub Desktop' and follow the steps to complete the clone
 ---
-### Issues Encountered
+# Issues Encountered
 
 *  Having the links to the various sections of the site made the navbar look to busy and cluttered. 
 	  Solution – used the navigation drop down menu from Bootstrap to tidy up the navbar.
@@ -194,7 +203,7 @@ Found solution on w3schools.com to make iframe responsive using CSS and code was
 
 ---
 
-### Credits
+# Credits
 
 Hero Image downloaded from Unsplash, picture taken by Sandro Schuh.
 
