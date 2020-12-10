@@ -132,6 +132,35 @@ Wireframes
 
 ---
 ### Deployment
+
+##  GitHub Project Creation
+To create the project the following steps were used:
+
+* In GitHub repositories section click the green 'New' button 
+* Select the Code Institute template
+* Name the repository and give a brief description
+* Set repository to 'Public' to ensure the commit history is visible
+* Click 'Create repository'
+
+## Deploy with GitHub Pages
+The website was deployed as follows:
+
+* Open the repository in GitHub
+* Navigate to the 'Settings' tab
+* Scroll down to 'GitHub Pages' section
+* Select 'Branch Master' as the source
+* Click the save button
+* Click on the link to go to the live deployed page
+
+
+## Run Locally
+To run the code locally:
+
+* Navigate to the repository
+* Click the 'Code' drop down menu
+* Select to copy the GitHub URL from HTTPS box or 'Download Zip'
+* Open a new terminal and type 'git clone' command in the CLI and paste copied URL
+* Alternatively, click 'Open with GitHub Desktop' and follow the steps to complete the clone
 ---
 ### Issues Encountered
 
