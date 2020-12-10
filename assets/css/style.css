@@ -7,7 +7,6 @@ body {
 }
 
 .section-title{
-    
     color: #6cba1f;
     text-align: center;
     font-size: 2rem;
@@ -18,16 +17,9 @@ hr{
     margin-bottom: 2rem;
 }
 
-.top-section-divider{
-    width: 100%;
-    height: 10px;
-    border-width: 0;
-    color: #6cba1f;
-    background-color: #ffdc14;
-}
 
 .bottom-section-divider{
-    width: 50%;
+    width: 10%;
     height: 3px;
     border-width: 0;
     color: #6cba1f;
@@ -37,6 +29,14 @@ hr{
 .section-icon{
     padding-right: 20px;
     padding-left: 20px;
+}
+
+.section-bg{
+    background-color: #dde5b6;
+}
+
+.section-break{
+    padding: 50px 0;
 }
 
 
@@ -62,9 +62,6 @@ hr{
   font-size: 4vw;
 }
 
-.thank-you{
-    text-align: center;
-}
 
 .navbar-toggler {
   color: #f8e238;
@@ -89,43 +86,21 @@ hr{
 
 /*---- Hero Image ----*/
 
-.container-hero-image {
-  width: 100%;
-  padding: 0;
-}
 
 .hero-image {
-  width: 100%;
-  position: relative;
-  overflow: hidden;
-  object-fit: cover;
-  object-position: bottom;
-}
-
-.hero-text {
-  font-size: 4vw;
-  position: absolute;
-  padding-top: 25px;
-  top: 40%;
-  left: 35%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-  color: #000;
-}
-
-.hero-text h3 {
-  font-size: 3.5vw;
-   color: #000;
-}
-
-.hero-text p {
-  font-size: 2.5vw;
+    /* Resource: Image sourced from Chevanon Photography on Pexels https://www.pexels.com/photo/close-up-of-hand-holding-cappuccino-302901/ */
+    background: url("../images/senior-final3.jpg");   
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 600px;
+    position: relative;
+    
 }
 
 
 
 /*---- About Section ----*/
-
 
 
 .flags-image{
@@ -243,34 +218,28 @@ h3, h4{
 
 
 .footer-text{
-padding-top: 20px;
+  padding-top: 20px;
   color: #ffdc14;
-  
-  
-  
 }
 
 .footer-text p{
-    padding-left: 30px;
-    font-size: 14px;
-    
+   padding-left: 30px;
+   font-size: 14px;  
 }
 
 .footer-icons{
-padding-right: 30px;
-    font-size: 20px;
-    text-align: right;
+   padding-right: 30px;
+   font-size: 20px;
+   text-align: right;
 }
 
 .footer-icons a {
-
-     color: #ffdc14;
-    
+    color: #ffdc14;  
 }
 
 .footer-icons a:hover {
-  color: #dcf406b9;
-  background: transparent;
+   color: #dcf406b9;
+   background: transparent;
 }
 
 
@@ -285,28 +254,17 @@ padding-right: 30px;
     height: 60px;
 }
 
-.column-gallery {
-  flex: 50%;
-  padding: 5px;
+  .column-gallery {
+    flex: 50%;
+    padding: 5px;
 }
 
-  /* https://stackoverflow.com/questions/32392383/how-to-center-text-responsive-in-image-using-css-html
-  Modified this css found on Stackoverflow to help with the responsiveness of the text on smaller screens*/
-  .hero-text {
-    font-size: 6vw;
-    position: absolute;
-    top: 30%;
-    left: 35%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    color: #000;
-  }
 }
 
 @media (max-width: 576px){
-    .column-gallery {
-  flex: 100%;
-  padding: 5px;
+  .column-gallery {
+    flex: 100%;
+    padding: 5px;
 }
 
 }
