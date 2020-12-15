@@ -171,6 +171,7 @@ h3, h4{
 .btn-color{
     color: #f8e238;
     background-color: rgba(108, 186, 31, 0.95);
+    margin-left: 15px;
 }
 
 .btn-color:hover {

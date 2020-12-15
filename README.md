@@ -213,3 +213,4 @@ Found solution on w3schools.com to make iframe responsive using CSS and code was
 # Credits
 
 Hero Image and Club photos taken by Deirdre O’Dowd for the Shannon Gaels Club.
+
