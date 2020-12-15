@@ -9,7 +9,7 @@ This site was designed for the first milestone project in Full Stack Software De
 ---
 
 ## Shannon Gaels LGFA
-
+![Mulit Device Mockup](assets/images/mockup-image.png "Multi Device mockup")
 
 I decided to create a site for the Shannon Gaels Ladies Gaelic Football Club based on the fact that they currently don’t have a website and being involved in coaching one of the underage teams, I thought it would be a great opportunity to provide more information and hopefully inspire new members to join. In the future I hope to add more features to the site that will benefit both the club and members.
 
@@ -98,22 +98,26 @@ The main font used throughout the site is Open Sans, which is the official font 
 Imagery:
  
 The club has provided me with their Logo, which will be used in the Navbar. Other images of the club sign, grounds, and flags were taken by me and will be used throughout the site, so that users can easily identify with the club.
-The images in the gallery section were taken by Deirdre O’Dowd.
+The the hero image and the images in the gallery section were taken by Deirdre O’Dowd for the Shannon Gaels Club.
 
-Wireframes
+Wireframes:
 
+Here is the wireframes that I used as the basis of the design
+for the site. These were created using Balsamiq.
 
+![Wireframe mockup](assets/images/wireframe.png "Wireframe mockup")
 
 
 ### Differences to Design
-The following items were change from the orginial design plans for the site:
+The following items were changed from the orginial design plans for the site:
 * There was no animation placed on the hero image as I felt is was more of a distraction to
 the image.
 * The text on the hero image was removed as it mirrored what is already showing in the navbar.
-* The layout of the links section was change from a list to individual cards,
+* The layout of the links section was changed from a list to individual cards,
 as I felt that some more information about each link would be more helpful to the site users.
 * Rather than having a background colour of white for all sections, I alternated between white
-and an off white to show and clear seperation of sections.
+and an off white to show clear seperation of sections, as with just white for all it was hard to 
+know when you were transitioning from one section to another.
 
 ---
 ## Features:
@@ -180,10 +184,13 @@ To run the code locally:
 After a search on Slack the solution was found to change from the default Bootstrap icon to the Fontawesome icon and styled it using CSS.
 
 * Keeping the text on the hero image when changing from desktop to tablet/mobile.
-Solution found on Stackoverflow to use viewport values for text size rather than px. Also, varied the position of the text by use of top and left margin percentages so that it is responsive for all devices. A media query for smaller screens is used to change the margin percentages so that text stays in position.
+Solution found on Stackoverflow to use viewport values for text size rather than px. 
+Also, varied the position of the text by use of top and left margin percentages so that
+ it is responsive for all devices. A media query for smaller screens is used to change 
+ the margin percentages so that text stays in position.
 https://stackoverflow.com/questions/32392383/how-to-center-text-responsive-in-image-using-css-html
-
-
+*This was subsequently removed from the site as it was felt there was doubling up of information
+on the image and the Navbar*
 
 * Aligning the images in the Gallery section and keeping them responsive with changes in screen size.
 	Code found on w3schools.com for aligning images side by side. I modified this code to make it work for my needs and added the necessary media queries to adjust the images on various screen sizes.
@@ -195,7 +202,7 @@ Code found on Stackoverflow to change the colour of the form input highlight whe
 https://stackoverflow.com/questions/14820952/change-bootstrap-input-focus-blue-glow
 
 
-* Was not happy with the alignment of the Bootstrap cards used in the About section. As the images and text cards are different sizes, having them align side by side did not look visually right to me. 	After reading through the Bootstrap documentation and trialing several options, I decided that using “align-self-center” for the text cards work best.
+* Was not happy with the alignment of the Bootstrap cards used in the About section. As the images and text cards are different sizes, having them align side by side did not look visually right to me. 	After reading through the Bootstrap documentation and trialing several options, I decided that using “align-self-center” for the text cards worked best.
 
 * Google Maps iframe was not responsive using Bootstrap.
 Found solution on w3schools.com to make iframe responsive using CSS and code was adjusted to work for this site.
@@ -205,6 +212,4 @@ Found solution on w3schools.com to make iframe responsive using CSS and code was
 
 # Credits
 
-Hero Image downloaded from Unsplash, picture taken by Sandro Schuh.
-
-Club photos taken by Deirdre O’Dowd for the Shannon Gaels Club.
+Hero Image and Club photos taken by Deirdre O’Dowd for the Shannon Gaels Club.
