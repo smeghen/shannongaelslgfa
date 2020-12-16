@@ -113,7 +113,7 @@ for the site. These were created using Balsamiq.
 
 ![Wireframe mockup](assets/images/wireframe.png "Wireframe mockup")
 
- For the pfd version of the wireframes click [here.](https://github.com/smeghen/shannongaelslgfa/blob/fd7328b9677c9b93966a9bce73d23bc5ea89ccad/assets/images/wireframe.pdf)
+ For the pfd version of the wireframes click [here.](https://github.com/smeghen/shannongaelslgfa/blob/master/assets/images/wireframe.pdf)
 
 ### Differences to Design
 The following items were changed from the orginial design plans for the site:
