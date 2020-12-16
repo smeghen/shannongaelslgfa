@@ -60,7 +60,7 @@ hr{
 
 .navbar-text {
   color: #ffdc14;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   font-size: 4vw;
 }
 
@@ -71,7 +71,7 @@ hr{
 }
 
 .nav-link {
-  color: #f8e238;
+  color: #ffdc14;
   font-size: 2vw;
 }
 
@@ -112,12 +112,14 @@ hr{
 .card{
     border: none;
     margin-bottom: 20px;
-      color: #6cba1f; 
+    color: #6cba1f; 
 }
 
 
 /*---- Gallery Section ----*/
-
+  /*Aligning the images in the Gallery section and keeping them 
+  responsive with changes in screen size. Code found at
+  https://www.w3schools.com/howto/howto_css_images_side_by_side.asp */
 .row-gallery {
   display: -webkit-box;
   display: -ms-flexbox;

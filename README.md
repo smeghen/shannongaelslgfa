@@ -113,6 +113,7 @@ for the site. These were created using Balsamiq.
 
 ![Wireframe mockup](assets/images/wireframe.png "Wireframe mockup")
 
+ For the pfd version of the wireframes click [here.](https://github.com/smeghen/shannongaelslgfa/blob/fd7328b9677c9b93966a9bce73d23bc5ea89ccad/assets/images/wireframe.pdf)
 
 ### Differences to Design
 The following items were changed from the orginial design plans for the site:
@@ -125,10 +126,15 @@ as I felt that some more information about each link would be more helpful to th
 and an off white to show clear seperation of sections, as with just white for all it was hard to 
 know when you were transitioning from one section to another.
 
----
-## Features:
-##### Existing Features
-##### Features to be Implemented in Future
+
+### Features to be Implemented in Future
+
+* Would like to expand the site to include a Club updates section.
+* Create an Club diary with details of upcoming fundraising events.
+* Add pages for each age group, which will include contact details for coaches, 
+training schdules and upcoming match details.
+* Expand the gallery section and divide the images into different age groups.
+
 ---
 ## Technologies Used
 * HTML -  HTML is the main language used for the structure of the site.
@@ -271,5 +277,18 @@ Found solution on w3schools.com to make iframe responsive using CSS and code was
 
 # Credits
 
-Hero Image and Club photos taken by Deirdre O’Dowd for the Shannon Gaels Club.
+* Hero Image and Club photos taken by Deirdre O’Dowd for the Shannon Gaels Club.
 
+* Bootstrap was used throughout the project for the layout and responsiveness of the site.
+
+* The Code Institute modules and videos were used extensively to aid me in the design
+and creation of this website.
+
+---
+
+# Acknowledgments
+
+* My Mentor, Gurjot Singh, for his feedback and support throughout the project.
+
+* The Slack community for their support, encouragement and assistance in finding answers 
+to my project problems.
