@@ -11,7 +11,13 @@ This site was designed for the first milestone project in Full Stack Software De
 ## Shannon Gaels LGFA
 ![Mulit Device Mockup](assets/images/mockup-image.png "Multi Device mockup")
 
-I decided to create a site for the Shannon Gaels Ladies Gaelic Football Club based on the fact that they currently don’t have a website and being involved in coaching one of the underage teams, I thought it would be a great opportunity to provide more information and hopefully inspire new members to join. In the future I hope to add more features to the site that will benefit both the club and members.
+I decided to create a site for the Shannon Gaels Ladies Gaelic Football Club based on the fact
+ that they currently don’t have a website and being involved in coaching one of the underage teams, 
+ I thought it would be a great opportunity to provide more information and hopefully inspire 
+ new members to join. In the future I hope to add more features to the site that will benefit 
+ both the club and members.
+ 
+ The live website can be found here: https://smeghen.github.io/shannongaelslgfa/
 
 ---
 ### User Experience (UX)
@@ -138,11 +144,64 @@ know when you were transitioning from one section to another.
 * Autoprefixer - was used to parse  CSS and add vendor prefixes to CSS rules via https://autoprefixer.github.io/
 * W3 HTML Validation was done via https://validator.w3.org/
 * W3 CSS Validation was done via https://jigsaw.w3.org/css-validator/
-
+* Google Chrome DevTools – was used extensively during coding to check the responsiveness of the site with the addition of new features.
 ---
 # Testing
+The testing of this project was based on the layout of the site, the proper operation of buttons, menus and links, and the responsiveness of the site on various device sizes. 
+
+The following browsers were used to test the website – *Google Chrome, Microsoft Edge and Safari.*
+
+Family members, peers of Slack and friends were asked to test the website and provide their thoughts on the user experience and any bugs that they found. Within this group of people the site was viewed on the following devices – *Desktop, Laptop, iPad mini, iPad, iPhone 6, iPhone 8, Samsung Galaxy S6 and Huawei P30.* 
 
 
+Each section of the site was tested as follows:
+
+NAVBAR: 
+* Responsive across different screen sizes
+* Menu reveals itself on clicking button
+* Menu options change colour on hover
+* Nav links go to sections of site on selection
+
+HOME SCREEN:
+* Hero image is responsive on all screen sizes.
+
+ABOUT:
+* Text and images cards are fully responsive on screens across all sizes.
+
+GALLERY:
+* Images are aligned and evenly spaced on screen
+* Images do not overflow on smaller screens
+* Images animate on hover
+* Images open on new browser when selected
+
+CONTACT:
+* Form and Google Maps are responsive across all screen sizes
+* Validation of correct form inputs for all fields
+* Get redirected to thank you page on form submission
+* Home button on thank you page works correctly
+
+LINKS:
+* Cards are fully responsive on screens across all sizes
+* Buttons for links change colour on hover
+* Links open on new browser when selected
+* Links open on correct websites
+
+FOOTER:
+* Footer is responsive on screens across all sizes
+* Social media links change colour on hover
+* Social media links open on new browser when selected
+* Links open on correct websites
+
+
+The code was run through the W3C HTML Validator and no errors were found.
+![HTML Validator](assets/images/htmlw3validator.png "HTML Validator")
+
+CSS Stylesheet was run through the W3C CSS Validator and showed 2 errors. Both of them relate to the 
+Bootstrap CDN and are out of my control to rectify.
+
+![CSS Validator](assets/images/cssw3validator.png "CSS Validator")
+
+--- 
 
 # Deployment
 
