@@ -245,7 +245,7 @@ To run the code locally:
 *  Having the links to the various sections of the site made the navbar look to busy and cluttered. 
 	  Solution – used the navigation drop down menu from Bootstrap to tidy up the navbar.
 
-* Could not change the colour of the navbar drop down menu icon to make the colour scheme of the site. 
+* Could not change the colour of the navbar drop down menu icon to match the colour scheme of the site. 
 After a search on Slack the solution was found to change from the default Bootstrap icon to the Fontawesome icon and styled it using CSS.
 
 * Keeping the text on the hero image when changing from desktop to tablet/mobile.
